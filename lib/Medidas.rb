@@ -7,5 +7,9 @@ class Medidas
 	def to_s
 		"Peso:#{@peso},Talla:#{@talla},Cintura:#{@cmcin},Cadera:#{@cmcad},Edad:#{@edad},Sexo:#{@sexo}"
 	end
+	
+	def imc
+		@peso/(@talla*@talla)
+	end
 end
 
