@@ -15,5 +15,7 @@ class TestPoint < Test::Unit::TestCase
 		assert_equal("20",@persona.edad.to_s)
 		assert_equal("0",@persona.sexo.to_s)
 		assert_equal("17.51",@persona.imc.to_s)
+		
+		assert_equal("20.21",@persona.grasa.to_s)
 	end
 end
