@@ -9,7 +9,7 @@ class Medidas
 	end
 	
 	def imc
-		@peso/(@talla*@talla)
+		(@peso/(@talla*@talla)).round(2)
 	end
 end
 
