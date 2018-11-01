@@ -11,5 +11,9 @@ class Medidas
 	def imc
 		(@peso/(@talla*@talla)).round(2)
 	end
+	
+	def %grasa
+		((1.2*Medidas.imc)+(0,23*@edad)-(10,8*sexo)-5,4).round(2)
+	end
 end
 
