@@ -1,5 +1,5 @@
 class Medidas
-	attr_access :peso :talla :cmcin :cmcad :edad :sexo
+	attr_reader :peso, :talla, :cmcin, :cmcad, :edad, :sexo
 	def initialize(peso,talla,cmcin,cmcad,edad,sexo)
 		@peso,@talla,@cmcin,@cmcad,@edad,@sexo=peso,talla,cmcin,cmcad,edad,sexo
 	end
