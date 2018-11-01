@@ -17,7 +17,7 @@ class Medidas
 	end
 	
 	def rcc
-		(@cmcin/@cmcad)
+		@cmcin/@cmcad.to_f#Hacerlo flotante, antes me daba la división entera
 	end
 end
 
